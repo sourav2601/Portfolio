@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&family=Fira+Code&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #0F172A;
+  color: #E5E7EB;
+  scroll-behavior: smooth;
+}
+
+/* Utility styles */
+.glow {
+  box-shadow: 0 0 15px -1px rgba(59, 130, 246, 0.3);
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 20px -1px rgba(59, 130, 246, 0.5);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #3B82F6, #22C55E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
